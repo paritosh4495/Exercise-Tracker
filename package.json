@@ -1,0 +1,31 @@
+{
+  "author": "Victor Popescu",
+  "name": "fcc-exercise-tracker",
+  "version": "0.0.1",
+  "description": "A REST API project, part of Free Code Camp's curriculum",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.7",
+    "mongodb": "^3.1.11",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "shortid": "^2.2.14",
+    "moment": "^2.24.0"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "repository": {
+    "url": "https://github.com/VicPopescu/Exercise-Tracker-Microservice"
+  },
+  "license": "GNU General Public License v3.0",
+  "keywords": [
+    "node",
+    "gomix",
+    "express"
+  ]
+}
